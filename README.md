@@ -21,9 +21,10 @@ This project is to show a possible solution of an Api to integrate a new CRM int
   - Add internal user through webhook that will called by the CRM
   - Check if a user is a Customer in the CRM system and had regsitered pricing agreement (i.e is officially a customer)
   - Get all product list and prices for a products
-  - Register for a pricing agreement
+  - Register customer for a pricing agreement and create new customer on CRM if can't find a matching customer
 
 - List of missing features because of time constraints:
   - Authentication and Authorization for accessing some endpoint
-  - Create a client-side app
+  - Add CRM project inmitation with a webhook service using background job to send data to Crm Api like Hangifre 
+  - Create a client-side app to consume CRM Api
   - Maybe adding a mapping library in the future
