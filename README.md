@@ -24,7 +24,8 @@ This project is to show a possible solution of an Api to integrate a new CRM int
   - Register customer for a pricing agreement and create new customer on CRM if can't find a matching customer
 
 - List of missing features because of time constraints:
+  - Get configuration from IConfiguration instead of hardcoded string for RabbitMQ and ElasticSearch
   - Authentication and Authorization for accessing some endpoint
-  - Add CRM project inmitation with a webhook service using background job to send data to Crm Api like Hangifre 
+  - Add CRM project inmitation with a webhook service using background job to send data to Crm Api like Hangfire 
   - Create a client-side app to consume CRM Api
   - Maybe adding a mapping library in the future
